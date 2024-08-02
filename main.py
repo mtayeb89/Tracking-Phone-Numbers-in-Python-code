@@ -15,7 +15,7 @@ service_provider=phonenumbers.parse(entered_num)
 print(service_provider)
 
 #
-geocoder=OpenCageGeocode('68b8780d854f4b38a47a699d02c2d8ef')
+geocoder=OpenCageGeocode('Opencage_API')
 query=str(number_location)
 result=geocoder.geocode(query)
 # Latitude line
